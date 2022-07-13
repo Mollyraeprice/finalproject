@@ -1,0 +1,99 @@
+-- Creating table for austinHousingData
+
+-- CREATE TABLE housing_data (
+-- 	zpid INT NOT NULL,
+-- 	numOfPhotos INT,
+-- 	numOfAccessibilityFeatures INT,
+-- 	numOfAppliances INT,
+-- 	numOfParkingFeatures INT,
+-- 	numOfPatioAndPorchFeatures INT,
+-- 	numOfSecurityFeatures INT,
+-- 	numOfWaterfrontFeatures INT,
+-- 	numOfWindowFeatures INT,
+-- 	numOfCommunityFeatures INT,
+-- 	lotSizeSqFt FLOAT,
+-- 	livingAreaSqFt INT,
+-- 	numOfPrimarySchools INT,
+-- 	numOfElementarySchools INT,
+-- 	numOfMiddleSchools INT,
+-- 	numOfHighSchools INT,
+-- 	avgSchoolDistance FLOAT,
+-- 	avgSchoolRating FLOAT,
+-- 	avgSchoolSize FLOAT,
+-- 	MedianStudentsPerTeacher INT,
+-- 	numOfBathrooms FLOAT,
+-- 	numOfBedrooms INT,
+-- 	numOfStories INT,
+-- 	homeImage VARCHAR,
+-- 	PRIMARY KEY (zpid)
+-- );
+
+-- Create table for austinHousingDetails
+
+-- CREATE TABLE housing_details (
+-- 	zpid INT NOT NULL,
+-- 	city VARCHAR,
+-- 	streetAddress VARCHAR,
+-- 	zipcode INT,
+-- 	description VARCHAR,
+-- 	latitude FLOAT,
+-- 	longitude FLOAT,
+-- 	propertyTaxRate FLOAT,
+-- 	garageSpaces INT,
+-- 	hasAssociation VARCHAR,
+-- 	hasCooling VARCHAR,
+-- 	hasGarage VARCHAR,
+-- 	hasHeating VARCHAR,
+-- 	hasSpa VARCHAR,
+-- 	hasView VARCHAR,
+-- 	homeType VARCHAR,
+-- 	parkingSpaces INT,
+-- 	yearBuilt INT,
+-- 	latestPrice INT,
+-- 	numPriceChanges INT,
+-- 	latest_saledate DATE,
+-- 	latest_salemonth INT,
+-- 	latest_saleyeaR INT,
+-- 	latestPriceSource VARCHAR,
+-- 	PRIMARY KEY (zpid)
+-- );
+
+-- Checking housing_data after  initial import
+
+-- SELECT * FROM housing_data LIMIT 5
+
+-- Checking housing_details after initial import
+
+-- SELECT * FROM housing_details LIMIT 5
+
+-- Joining tables together
+
+-- CREATE TABLE austin_housing_data AS
+-- SELECT
+-- housing_data.numOfPhotos,
+-- housing_data.numOfAccessibilityFeatures,
+-- housing_data.numOfAppliances,
+-- housing_data.numOfParkingFeatures,
+-- housing_data.numOfPatioAndPorchFeatures,
+-- housing_data.numOfSecurityFeatures,
+-- housing_data.numOfWaterfrontFeatures,
+-- housing_data.numOfWindowFeatures,
+-- housing_data.numOfCommunityFeatures,
+-- housing_data.lotSizeSqFt,
+-- housing_data.livingAreaSqFt,
+-- housing_data.numOfPrimarySchools,
+-- housing_data.numOfElementarySchools,
+-- housing_data.numOfMiddleSchools,
+-- housing_data.numOfHighSchools,
+-- housing_data.avgSchoolDistance,
+-- housing_data.avgSchoolRating,
+-- housing_data.avgSchoolSize,
+-- housing_data.MedianStudentsPerTeacher,
+-- housing_data.numOfBathrooms,
+-- housing_data.numOfBedrooms,
+-- housing_data.numOfStories,
+-- housing_data.homeImage,
+-- housing_details.*
+-- FROM housing_data
+-- FULL OUTER JOIN housing_details ON housing_data.zpid = housing_details.zpid
+-- ;
