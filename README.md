@@ -22,11 +22,9 @@ After searching for data on  current housing prices in the Austin area, we found
 - Pricing: latest price, latest sale date
 - Unique Factors: average school distance, average school rating
 
-### Data Focus
+### Question Answered
 
-#### Average School Distance ?? 
-
-#### Average School Rating ??
+We hope to answer our question: can we predit housing prices in Austin, Texas based on a number of features. 
 
 ## Communication Protocols
 
