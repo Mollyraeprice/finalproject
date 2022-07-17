@@ -6,18 +6,18 @@
 
 1. Square- Molly
   - Create GitHub with branches and README.md
-  - Selected topic 
-  - Description of source of data
+  - Created presentation in README.md (in molly-dev1 branch) explaining project question, data info and communication protocol
   
 2. Triangle- Claire
-  - Built ML model and used test data
+  - Created first draft of multiple linear regression ML model using partial/dummy data
   
 3. Circle- Barrett
-  - Created sample dataset
-  - Connected dataset to ML model
+  - Set up first placeholder database
+  - Connected DB and ML model placeholders
   
 4. X- Zeena
-  - N/A
+  - Nothing for Dashboard on Deliverable 1
+  - Working ahead by mapping out simple diagram of high level steps and technologies used for project
 
 ##### Selected topic
 
