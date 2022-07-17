@@ -3,8 +3,7 @@
 ### Roles of Team Members and Tasks for Deliverable 1:
 1. Square- Molly
   - Create GitHub with branches and README.md
-  - Selected topic 
-  - Description of source of data
+  - Created presentation (below) explaining project question, data info and communication protocol
   
 2. Triangle- Claire
   - Created first draft of multiple linear regression ML model using partial/dummy data
@@ -39,13 +38,13 @@ After searching for data on  current housing prices in the Austin area, we found
 - Pricing: latest price, latest sale date
 - Unique Factors: average school distance, average school rating
 
-#### Machine Learning Questions
+### Machine Learning Questions
 
 - Should we run different models for different cities? Austin vs Pflugerville
 - How can we run a Feature Extraction Model? 
 - 17.8.1 Ensemble Learning and Decision trees - are these just for binary outcomes? Can I use them for predicting home prices?
 
-#### Notes on Data Cleaning 
+### Notes on Data Cleaning 
 
 Redundant Columns to Drop:
 - parkingSpace and garageSpace are mostly same column
