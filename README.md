@@ -63,7 +63,7 @@ New Columns to Create:
 
 ### Question Answered
 
-We hope to answer our question: can we predit housing prices in Austin, Texas based on a number of features. 
+We hope to answer our question: can we predit housing prices in Austin, Texas based on a number of features?
 
 ## Communication Protocols
 
@@ -75,7 +75,7 @@ We hope to answer our question: can we predit housing prices in Austin, Texas ba
 
 ### Meeting Cadence
 
-We are hoping to focus on collaboration during our class hours each week and will meet otherwise when needed. We have agreed to meet outside of class if needed to stay on track. Molly will meet individually with other team members on need-to-know basis to make sure she is documenting each step of the way. 
+We are hoping to focus on collaboration during our class hours each week and will meet otherwise when needed. We have agreed to meet outside of class if needed to stay on track. We will meet individually with other team members on need-to-know basis to make we are working through our project at the same speed. 
 
 ### GitHub
 
@@ -83,8 +83,8 @@ We are going to be using our github collaboration as our main hub for sharing ou
 
 ### Slack
 
-Lastly, we are using slack to share links or quick messages to keep everyone up to date with each step of the project. Henry, our TA, is also in our group message and will be able to help guide us along the way. 
+We are using slack to share links or quick messages to keep everyone up to date with each step of the project. Henry, our TA, is also in our group message and will be able to help guide us along the way. 
 
 ### Google Drive
 
-We are also sharing a Google folder for our Google slides and notes we take during class and project hours
+Lastly, we are also sharing a Google folder for our Google slides and notes we take during class and project hours.
