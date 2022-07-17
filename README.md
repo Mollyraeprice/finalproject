@@ -7,14 +7,15 @@
   - Description of source of data
   
 2. Triangle- Claire
-  - Built ML model and used test data
+  - Created first draft of multiple linear regression ML model using partial/dummy data
   
 3. Circle- Barrett
-  - Created sample dataset
-  - Connected dataset to ML model
+  - Set up first placeholder database
+  - Connected DB and ML model placeholders
   
 4. X- Zeena
-  - N/A
+  - Nothing for Dashboard on Deliverable 1
+  - Working ahead by mapping out simple diagram of high level steps and technologies used for project
 
 # Deliverable 1 
 
@@ -37,6 +38,29 @@ After searching for data on  current housing prices in the Austin area, we found
 - Identifiers: zillow id, address, zip codes
 - Pricing: latest price, latest sale date
 - Unique Factors: average school distance, average school rating
+
+#### Machine Learning Questions
+
+- Should we run different models for different cities? Austin vs Pflugerville
+- How can we run a Feature Extraction Model? 
+- 17.8.1 Ensemble Learning and Decision trees - are these just for binary outcomes? Can I use them for predicting home prices?
+
+#### Notes on Data Cleaning 
+
+Redundant Columns to Drop:
+- parkingSpace and garageSpace are mostly same column
+  - Test in excel
+- garageSpace and hasGarage columns are redundant, can drop hasGarage at least
+
+Columns to Drop because Obviously Irrelevant:
+- NumofCommunity features not well defined, maybe drop
+
+
+Columns to Clean/Rows to Drop:
+- Break down the frequency of home types, and decide if drop all rows besides Single Family housing 
+
+New Columns to Create:
+- New column that calculates age of the home based on yearBuilt?
 
 ### Question Answered
 
@@ -62,4 +86,6 @@ We are going to be using our github collaboration as our main hub for sharing ou
 
 Lastly, we are using slack to share links or quick messages to keep everyone up to date with each step of the project. Henry, our TA, is also in our group message and will be able to help guide us along the way. 
 
+### Google Drive
 
+We are also sharing a Google folder for our Google slides and notes we take during class and project hours
