@@ -88,3 +88,43 @@ We are using slack to share links or quick messages to keep everyone up to date 
 ### Google Drive
 
 Lastly, we are also sharing a Google folder for our Google slides and notes we take during class and project hours.
+
+# Deliverable 2
+
+### Data Exploration Phase
+
+During our first steps of looking at our csv file, we wanted to understand our data. What are our variables? Are there any missing values? Do we need to transform any of the data so it can be uniform across the columns? Do we need to bring in any other datasets? Are there any outliers that will skew our data?
+
+#### Variables
+
+From the beginning, our variables were quite obvious:
+- Identifiers: zillow id, address, zip codes
+- Pricing: latest price, latest sale date
+- Unique Factors: average school distance, average school rating
+
+#### Outlier Treatment
+
+Our column, "latestPrice", represents the most recent prices these homes sold for. Therefore, Claire performed a boxplot to find any outliers in the prices. After seeing vast prices in the boxplot, she created buckets to divide the homes in different pricing categories. From our cheapest homes to the most expensive, we found that most homes cost between 100k to 3m. This is exactly what Claire was looking for. We have our new dataframe.
+
+Missing values treatment.
+Outlier treatment.
+Variable transformation.
+Variable creation.
+
+### Description of Analysis Phase
+
+After cleaning up our data, we were ready to test it. First, Claire wanted to test using random forest regression. Below are some advantages of using a RFR:
+- it can used with data that differs in non-linear relationships
+- it can run well on datasets that are large
+
+Disadvantages:
+- it won't explain the data very well
+- overfitting could possibly happen
+- it also needs some direction and tweeking 
+
+
+
+
+
+
+
