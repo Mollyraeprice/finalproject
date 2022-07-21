@@ -1,15 +1,8 @@
 # finalproject
 
-## Deliverable 1
+## Deliverable 2
 
-### Content
+## First Tableau Dashboard draft 1 
 
-#### The team members have drafted their project, including the following:
+https://public.tableau.com/views/dashboard1_16584263247130/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 
-##### Selected topic
-
-Can we predict the housing price in the Austin area based on a number of factors?
-
-Reason they selected the topic
-Description of the source of data
-Questions they hope to answer with the data
