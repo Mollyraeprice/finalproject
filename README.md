@@ -99,7 +99,7 @@ Both of our csv data sources came from Zillow and had the common column of "zpid
 
 ![Screen Shot 2022-07-20 at 7 04 20 PM](https://user-images.githubusercontent.com/98489681/180663991-03f30a66-f3e4-4241-972b-6a5fae43f8d3.png)
 
-Barret created both tables in pgAdmin and imported both CSVs. He combined the tables on the the "zpid" column and exported the data as a CSV called austinHousingCombined.csv. He jumped over to Jupyter Notebook next, imported SQL Alchemy so he could connect pgAdmin to import the table. Now, Claire has a database to connect to her ML model. 
+[Barrett](https://github.com/Mollyraeprice/finalproject/tree/barrett-dev1) created both tables ([1](https://github.com/Mollyraeprice/finalproject/blob/barrett-dev1/data_source_one_final.jpg) and [2](https://github.com/Mollyraeprice/finalproject/blob/barrett-dev1/data_source_two_final.jpg)) in pgAdmin and imported both CSVs. He combined the tables on the the "zpid" column and exported the data as a CSV called austinHousingCombined.csv. He jumped over to Jupyter Notebook next, imported SQL Alchemy so he could connect pgAdmin to [import the table](https://github.com/Mollyraeprice/finalproject/blob/barrett-dev1/jupyter_database_load.jpg). Now, Claire has a database to connect to her ML model. 
 
 #### Variables
 
