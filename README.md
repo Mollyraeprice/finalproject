@@ -123,6 +123,14 @@ From the beginning, our variables were quite obvious:
 
 ### Description of Analysis Phase
 
+Once we had a good look at our data and Barrett connected the database to Jupyter Notebook, we started testing it in the machine learning model that Claire had built and tested previously. 
+
+Compared Models:
+- Random Forest Regression
+- Linear Regression 
+- 
+After comparing the accuracy of the ML models, the better performing model was now the new focus. 
+
 ### Machine Learning Model
 
 ### Cleaning the Data
