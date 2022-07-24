@@ -113,6 +113,13 @@ Both of our csv data sources came from Zillow and had the common column of "zpid
 
 [Barrett](https://github.com/Mollyraeprice/finalproject/tree/barrett-dev1) created both tables ([1](https://github.com/Mollyraeprice/finalproject/blob/barrett-dev1/data_source_one_final.jpg) and [2](https://github.com/Mollyraeprice/finalproject/blob/barrett-dev1/data_source_two_final.jpg)) in pgAdmin and imported both CSVs. He combined the tables on the the "zpid" column and exported the data as a CSV called austinHousingCombined.csv. He jumped over to Jupyter Notebook next, imported SQL Alchemy so he could connect pgAdmin to [import the table](https://github.com/Mollyraeprice/finalproject/blob/barrett-dev1/jupyter_database_load.jpg). Now, Claire has a database to connect to her ML model. 
 
+#### Full Integrated Database
+
+- [Database interfaces with the project](https://github.com/Mollyraeprice/finalproject/blob/barrett-dev1/jupyter_database_load.jpg)
+- Includes two tables ([1](https://github.com/Mollyraeprice/finalproject/blob/barrett-dev1/data_source_one_final.jpg) and [2](https://github.com/Mollyraeprice/finalproject/blob/barrett-dev1/data_source_two_final.jpg))
+- Includes [a join](https://github.com/Mollyraeprice/finalproject/blob/barrett-dev1/sqlData.txt) using the database language
+
+
 #### Variables
 
 From the beginning, our variables were quite obvious:
@@ -133,11 +140,31 @@ After comparing the accuracy of the ML models, the better performing model was n
 
 ### Machine Learning Model
 
-### Cleaning the Data
+#### Preliminary data preprocessing 
 
-#### Outlier Treatment
+As mentioned before, Zeena worked through the [preprocessing on Jupyter Notebooks](https://github.com/Mollyraeprice/finalproject/blob/zeena-dev1/prepro.ipynb) using Pandas.
+
+#### Preliminary feature engineering selection
+
+Claire had some data cleaning to do before she could [run the dataset through the model](https://github.com/Mollyraeprice/finalproject/blob/claire-dev1/Lin_Reg_Model_Testing_FinalProjectD1.ipynb):
+
+One task was to drop non-numeric columns and then run a weighted analysis on the remaining features to learn which of the columns we needed to drop or keep because of their importance. 
 
 Our column, "latestPrice", represents the most recent prices these homes sold for. Therefore, Claire performed a boxplot to find any outliers in the prices. After seeing vast prices in the boxplot, she created buckets to divide the homes in different pricing categories. From our cheapest homes to the most expensive, we found that most homes cost between 100k to 3m. This is exactly what Claire was looking for. We have our new dataframe.
+
+As we know, feature engineering helps line up the dataset with the machine learning model requirements. One of our ideas for feature engineering and selection was to add a new column of the calculated home and replace that with the yearBuilt for running the model. This will ultimately help the performance of the model.
+We also dropped any homeType that isn’t a single family home. This resulted in us losing only 6% of our data. 
+
+![Screen Shot 2022-07-20 at 7 38 03 PM](https://user-images.githubusercontent.com/98489681/180668858-b3382af3-72ed-466e-95a1-531095de29f1.png)
+
+#### Description of how data was split into training and testing sets
+
+
+
+#### Explanation of model choice, including limitations and benefits
+
+### Cleaning the Data
+
 
 ### Description of Analysis Phase- ML Model
 
@@ -150,6 +177,20 @@ Disadvantages:
 - overfitting could possibly happen
 - it also needs some direction and tweeking 
 
+### Dashboard
+
+Interactive dashboard link to tableau public:
+
+https://public.tableau.com/views/dashboard1_16584263247130/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+
+
+Description of interactive tools:
+- Heat map of zip codes and housing prices
+- Bar graph of month and price sold
+- Bubble chart of price/lot size/ year built
+- Line graph of price and average school rating
+
+![Screen Shot 2022-07-24 at 1 31 25 PM](https://user-images.githubusercontent.com/98489681/180670273-76f0387e-a5e4-43d1-b9d2-c90e8d2b9a7e.png)
 
 
 
