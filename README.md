@@ -90,7 +90,7 @@ Once we had a good look at our data and Barrett connected the database to Jupyte
 Compared Models:
 - Random Forest Regression
 - Linear Regression 
-- 
+
 After comparing the accuracy of the ML models, the better performing model was now the new focus. 
 
 ## Machine Learning Model
@@ -114,14 +114,9 @@ We also dropped any homeType that isn’t a single family home. This resulted in
 
 ### Description of how data was split into training and testing sets
 
-
-
 ### Explanation of model choice, including limitations and benefits
 
-
-### Description of Analysis Phase- ML Model
-
-After cleaning up our data, we were ready to test it. First, Claire wanted to test using random forest regression. Below are some advantages of using a RFR:
+First, Claire wanted to test using random forest regression. Below are some advantages of using a RFR:
 - it can used with data that differs in non-linear relationships
 - it can run well on datasets that are large
 
