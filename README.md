@@ -1,20 +1,4 @@
-# finalproject
-
-### Roles of Team Members and Tasks for Deliverable 1:
-1. Square- Molly
-  - Create GitHub with branches and README.md
-  - Created presentation (below) explaining project question, data info and communication protocol
-  
-2. Triangle- Claire
-  - Created first draft of multiple linear regression ML model using partial/dummy data
-  
-3. Circle- Barrett
-  - Set up first placeholder database
-  - Connected DB and ML model placeholders
-  
-4. X- Zeena
-  - Nothing for Dashboard on Deliverable 1
-  - Working ahead by mapping out simple diagram of high level steps and technologies used for project
+# Final Project
 
 # Deliverable 1 
 
@@ -44,24 +28,7 @@ After searching for data on  current housing prices in the Austin area, we found
 - How can we run a Feature Extraction Model? 
 - 17.8.1 Ensemble Learning and Decision trees - are these just for binary outcomes? Can I use them for predicting home prices?
 
-### Notes on Data Cleaning 
-
-Redundant Columns to Drop:
-- parkingSpace and garageSpace are mostly same column
-  - Test in excel
-- garageSpace and hasGarage columns are redundant, can drop hasGarage at least
-
-Columns to Drop because Obviously Irrelevant:
-- NumofCommunity features not well defined, maybe drop
-
-
-Columns to Clean/Rows to Drop:
-- Break down the frequency of home types, and decide if drop all rows besides Single Family housing 
-
-New Columns to Create:
-- New column that calculates age of the home based on yearBuilt?
-
-### Question Answered
+## Question Answered
 
 We hope to answer our question: can we predit housing prices in Austin, Texas based on a number of features?
 
@@ -75,23 +42,11 @@ We hope to answer our question: can we predit housing prices in Austin, Texas ba
 
 ### Meeting Cadence
 
-We are hoping to focus on collaboration during our class hours each week and will meet otherwise when needed. We have agreed to meet outside of class if needed to stay on track. We will meet individually with other team members on need-to-know basis to make we are working through our project at the same speed. 
-
-### GitHub
-
-We are going to be using our github collaboration as our main hub for sharing our data. Each team member will have their own branch that others can view and give feedback on when necessary. We will push onto main branch when ready. 
-
-### Slack
-
-We are using slack to share links or quick messages to keep everyone up to date with each step of the project. Henry, our TA, is also in our group message and will be able to help guide us along the way. 
-
-### Google Drive
-
-Lastly, we are also sharing a Google folder for our Google slides and notes we take during class and project hours.
+We are hoping to focus on collaboration during our class hours each week and will meet otherwise when needed. We have agreed to meet outside of class if needed to stay on track. We will meet individually with other team members on need-to-know basis to make we are working through our project at the same speed. We are going to be using our github collaboration as our main hub for sharing our data. Each team member will have their own branch that others can view and give feedback on when necessary. We will push onto main branch when ready. Also, we are using slack to share links or quick messages to keep everyone up to date with each step of the project. Henry, our TA, is also in our group message and will be able to help guide us along the way. Lastly, we are also sharing a Google folder for our Google slides and notes we take during class and project hours.
 
 # Deliverable 2
 
-### Data Exploration Phase
+## Data Exploration Phase
 
 During our first steps of looking at our CSV file, we wanted to understand our data. What are our variables? Are there any missing values? Do we need to transform any of the data so it can be uniform across the columns? Do we need to bring in any other datasets? Are there any outliers that will skew our data? Exploring the data actually helped us tighten up our research question. 
 
@@ -128,7 +83,7 @@ From the beginning, our variables were quite obvious:
 - Unique Factors: average school distance, average school rating
 
 
-### Description of Analysis Phase
+## Description of Analysis Phase
 
 Once we had a good look at our data and Barrett connected the database to Jupyter Notebook, we started testing it in the machine learning model that Claire had built and tested previously. 
 
@@ -138,13 +93,13 @@ Compared Models:
 - 
 After comparing the accuracy of the ML models, the better performing model was now the new focus. 
 
-### Machine Learning Model
+## Machine Learning Model
 
-#### Preliminary data preprocessing 
+### Preliminary data preprocessing 
 
 As mentioned before, Zeena worked through the [preprocessing on Jupyter Notebooks](https://github.com/Mollyraeprice/finalproject/blob/zeena-dev1/prepro.ipynb) using Pandas.
 
-#### Preliminary feature engineering selection
+### Preliminary feature engineering selection
 
 Claire had some data cleaning to do before she could [run the dataset through the model](https://github.com/Mollyraeprice/finalproject/blob/claire-dev1/Lin_Reg_Model_Testing_FinalProjectD1.ipynb):
 
@@ -157,13 +112,11 @@ We also dropped any homeType that isn’t a single family home. This resulted in
 
 ![Screen Shot 2022-07-20 at 7 38 03 PM](https://user-images.githubusercontent.com/98489681/180668858-b3382af3-72ed-466e-95a1-531095de29f1.png)
 
-#### Description of how data was split into training and testing sets
+### Description of how data was split into training and testing sets
 
 
 
-#### Explanation of model choice, including limitations and benefits
-
-### Cleaning the Data
+### Explanation of model choice, including limitations and benefits
 
 
 ### Description of Analysis Phase- ML Model
@@ -177,7 +130,7 @@ Disadvantages:
 - overfitting could possibly happen
 - it also needs some direction and tweeking 
 
-### Dashboard
+## Dashboard
 
 Interactive dashboard link to tableau public:
 
