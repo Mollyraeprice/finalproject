@@ -93,7 +93,7 @@ Lastly, we are also sharing a Google folder for our Google slides and notes we t
 
 ### Data Exploration Phase
 
-During our first steps of looking at our CSV file, we wanted to understand our data. What are our variables? Are there any missing values? Do we need to transform any of the data so it can be uniform across the columns? Do we need to bring in any other datasets? Are there any outliers that will skew our data? Exploring the data actually helped us tighten up our research question. After categorizing our data into identifiers, pricing, and unique factors, we had our project topic.  
+During our first steps of looking at our CSV file, we wanted to understand our data. What are our variables? Are there any missing values? Do we need to transform any of the data so it can be uniform across the columns? Do we need to bring in any other datasets? Are there any outliers that will skew our data? Exploring the data actually helped us tighten up our research question. 
 
 Both of our csv data sources came from Zillow and had the common column of "zpid". 
 
@@ -109,9 +109,11 @@ From the beginning, our variables were quite obvious:
 - Unique Factors: average school distance, average school rating
 
 
-### Decsription of Analysis Phase
+### Description of Analysis Phase
 
 ### Machine Learning Model
+
+### Cleaning the Data
 
 #### Outlier Treatment
 
