@@ -93,7 +93,13 @@ Lastly, we are also sharing a Google folder for our Google slides and notes we t
 
 ### Data Exploration Phase
 
-During our first steps of looking at our csv file, we wanted to understand our data. What are our variables? Are there any missing values? Do we need to transform any of the data so it can be uniform across the columns? Do we need to bring in any other datasets? Are there any outliers that will skew our data?
+During our first steps of looking at our CSV file, we wanted to understand our data. What are our variables? Are there any missing values? Do we need to transform any of the data so it can be uniform across the columns? Do we need to bring in any other datasets? Are there any outliers that will skew our data? Exploring the data actually helped us tighten up our research question. After categorizing our data into identifiers, pricing, and unique factors, we had our project topic.  
+
+Both of our csv data sources came from Zillow and had the common column of "zpid". 
+
+![Screen Shot 2022-07-20 at 7 04 20 PM](https://user-images.githubusercontent.com/98489681/180663991-03f30a66-f3e4-4241-972b-6a5fae43f8d3.png)
+
+Barret created both tables in pgAdmin and imported both CSVs. He combined the tables on the the "zpid" column and exported the data as a CSV called austinHousingCombined.csv. He jumped over to Jupyter Notebook next, imported SQL Alchemy so he could connect pgAdmin to import the table. Now, Claire has a database to connect to her ML model. 
 
 #### Variables
 
@@ -102,16 +108,16 @@ From the beginning, our variables were quite obvious:
 - Pricing: latest price, latest sale date
 - Unique Factors: average school distance, average school rating
 
+
+### Decsription of Analysis Phase
+
+### Machine Learning Model
+
 #### Outlier Treatment
 
 Our column, "latestPrice", represents the most recent prices these homes sold for. Therefore, Claire performed a boxplot to find any outliers in the prices. After seeing vast prices in the boxplot, she created buckets to divide the homes in different pricing categories. From our cheapest homes to the most expensive, we found that most homes cost between 100k to 3m. This is exactly what Claire was looking for. We have our new dataframe.
 
-Missing values treatment.
-Outlier treatment.
-Variable transformation.
-Variable creation.
-
-### Description of Analysis Phase
+### Description of Analysis Phase- ML Model
 
 After cleaning up our data, we were ready to test it. First, Claire wanted to test using random forest regression. Below are some advantages of using a RFR:
 - it can used with data that differs in non-linear relationships
