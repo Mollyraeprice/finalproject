@@ -95,6 +95,18 @@ Lastly, we are also sharing a Google folder for our Google slides and notes we t
 
 During our first steps of looking at our CSV file, we wanted to understand our data. What are our variables? Are there any missing values? Do we need to transform any of the data so it can be uniform across the columns? Do we need to bring in any other datasets? Are there any outliers that will skew our data? Exploring the data actually helped us tighten up our research question. 
 
+Exploring the data helped us tighten up our research question. [Zeena loaded in the CSV file](https://github.com/Mollyraeprice/finalproject/blob/zeena-dev1/prepro.ipynb) to explore the data in a few ways:
+- She analyzed the data types
+- Filtered to single family homes
+- Checked for null values
+- Filtered data only including Austin city
+- Dropped columns with no importance
+- Removed columns that couldn’t convert to numerical data
+- Changed “latest_saledate” to a date format
+
+
+### Database Setup
+
 Both of our csv data sources came from Zillow and had the common column of "zpid". 
 
 ![Screen Shot 2022-07-20 at 7 04 20 PM](https://user-images.githubusercontent.com/98489681/180663991-03f30a66-f3e4-4241-972b-6a5fae43f8d3.png)
