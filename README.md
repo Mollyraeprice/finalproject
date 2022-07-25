@@ -150,7 +150,7 @@ Interactive dashboard link to tableau public:
 https://public.tableau.com/views/dashboard1_16584263247130/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 
 
-Description of interactive tools:
+### Description of interactive tools:
 - Heat map of zip codes and housing prices
 - Bar graph of month and price sold
 - Bubble chart of price/lot size/ year built
@@ -158,4 +158,6 @@ Description of interactive tools:
 
 ![Screen Shot 2022-07-24 at 1 31 25 PM](https://user-images.githubusercontent.com/98489681/180670273-76f0387e-a5e4-43d1-b9d2-c90e8d2b9a7e.png)
 
+### Description of tools used to create final dashboard in a project map:
+![Screen Shot 2022-07-24 at 4 36 21 PM](https://user-images.githubusercontent.com/98489681/180675933-d6ce1446-e44a-4944-93a0-c7a2696f8f52.png)
 
