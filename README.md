@@ -1,5 +1,7 @@
 # Final Project
 
+Google Slides: https://docs.google.com/presentation/d/1kHhykAyHsYu4u6Xx_kAtRFoHddAjTAV-o60WKMYjSNo/edit#slide=id.g13f8ca8829e_0_0
+
 # Deliverable 1 
 
 ## Overview
@@ -146,6 +148,11 @@ Description of interactive tools:
 ![Screen Shot 2022-07-30 at 3 06 31 PM](https://user-images.githubusercontent.com/98489681/181994691-000d4366-f8f8-489d-b4ed-15e84e728071.png)
 ![Screen Shot 2022-07-30 at 3 06 24 PM](https://user-images.githubusercontent.com/98489681/181994686-842661f9-657a-48ea-ab99-3c8c0ce0a07f.png)
 
+# Deliverable 3 
+
+### Technologies, languages, tools, and algorithms used throughout the project:
+
+![Screen Shot 2022-07-30 at 3 16 41 PM](https://user-images.githubusercontent.com/98489681/181994882-9b492b8e-13ac-4e04-80fd-fe17c2706e28.png)
 
 
 
