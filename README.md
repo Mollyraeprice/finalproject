@@ -1,6 +1,6 @@
 # Final Project
 
-Google Slides: https://docs.google.com/presentation/d/1kHhykAyHsYu4u6Xx_kAtRFoHddAjTAV-o60WKMYjSNo/edit#slide=id.g13f8ca8829e_0_0
+Google Slides: (https://docs.google.com/presentation/d/1kHhykAyHsYu4u6Xx_kAtRFoHddAjTAV-o60WKMYjSNo/edit#slide=id.p)
 
 # Deliverable 1 
 
