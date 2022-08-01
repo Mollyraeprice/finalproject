@@ -81,7 +81,6 @@ Once we had a good look at our data and Barrett connected the database to Jupyte
 
 Compared Models:
 - Random Forest Regressor
-- XGBoost
 - Multiple Linear Regression
 
 
@@ -110,7 +109,7 @@ We also dropped any homeType that isn’t a single family home. This resulted in
 
 ### Description of how data was split into training and testing sets
 
-Since we are trying to predict housing prices in the Austin area, the 'latestprice' was our dependent variable as it represents represents the most recent prices these homes sold for; it's the closest datapoint we have to how much a house is worth based on certain characteristics. All other datapoints were considered independent variables that could potentially help predict home prices in the Austin area.
+Since we are trying to predict housing prices in the Austin area, the 'latestprice' was our dependent variable as it represents the most recent prices these homes sold for; it's the closest datapoint we have to how much a house is worth based on certain characteristics. All other datapoints were considered independent variables that could potentially help predict home prices in the Austin area.
 
 ### Explanation of model choice, including limitations and benefits
 
@@ -156,6 +155,27 @@ Description of interactive tools:
 
 ![Screen Shot 2022-07-30 at 3 16 41 PM](https://user-images.githubusercontent.com/98489681/181994882-9b492b8e-13ac-4e04-80fd-fe17c2706e28.png)
 
+### Machine Learning Model Developments
+
+1. The final top input variables decided on for the model were the following:
+- latestprice
+- livingareasqft
+- numofbathrooms
+- lotsizesqft
+- avgschoolrating
+- latitude
+- longitude
+- zipcode
+
+These were determined to have the most weight based on running a feature_importance_ attribute in the RFR model. We used the one-hot encoding method on both city (the name of the city) and zipcode, and surprisingly we found that these variables didn't have as much of an impact as latitude and longitude on predicting home prices. City name didn't really improve the accuracy of the model at all, while the zipcode had some weight even if not the most important variable. 
+
+2. We did not change from the Random Forest Regressor model, but we did use more features from SKLearn to improve the model, including **RandomSearch** and **GridSearch**. In short, these two attributes of the RFR Model are ways to further optimize the parameters for the model to improve its performance.
+
+The RandomSearch Model randomly picks different combinations of parameter values based on the parameter ranges you give it, and then based on the peformance of these multiple random parameter combinations, it shows which combination performed the best. After conducting the RandomSearch exercise, we ran a GridSearch based on the results of the RandomSearch. Since RandomSearch shares the best parameter combination based on _random_ sampling of parameters, you can then feed the GridSearch more specific ranges of parameters to test out. The GridSearch attribute tests _all_ combinations of parameters within the ranges you give it for each parameter, so it's good to know around which values you want to test first (which you get from the RandomSearch). 
+
+3. 
+
+[!accuracy_score]("https://user-images.githubusercontent.com/14280739/182073763-465c2ff5-946d-43e4-aae2-2bacd77915da.png")
 
 
 
