@@ -1,5 +1,7 @@
 # Final Project
 
+Google Slides: (https://docs.google.com/presentation/d/1kHhykAyHsYu4u6Xx_kAtRFoHddAjTAV-o60WKMYjSNo/edit#slide=id.p)
+
 # Deliverable 1 
 
 ## Overview
@@ -31,18 +33,6 @@ After searching for data on  current housing prices in the Austin area, we found
 ## Question Answered
 
 We hope to answer our question: can we predit housing prices in Austin, Texas based on a number of features?
-
-## Communication Protocols
-
-### Roles of Team Members:
-1. Square- Molly
-2. Triangle- Claire
-3. Circle- Barrett
-4. X- Zeena
-
-### Meeting Cadence
-
-We are hoping to focus on collaboration during our class hours each week and will meet otherwise when needed. We have agreed to meet outside of class if needed to stay on track. We will meet individually with other team members on need-to-know basis to make we are working through our project at the same speed. We are going to be using our github collaboration as our main hub for sharing our data. Each team member will have their own branch that others can view and give feedback on when necessary. We will push onto main branch when ready. Also, we are using slack to share links or quick messages to keep everyone up to date with each step of the project. Henry, our TA, is also in our group message and will be able to help guide us along the way. Lastly, we are also sharing a Google folder for our Google slides and notes we take during class and project hours.
 
 # Deliverable 2
 
@@ -90,10 +80,10 @@ From the beginning, our variables were quite obvious:
 Once we had a good look at our data and Barrett connected the database to Jupyter Notebook, we started testing it in the machine learning model that Claire had built and tested previously. 
 
 Compared Models:
-- Random Forest Regression
-- Linear Regression 
+- Random Forest Regressor
+- XGBoost
+- Multiple Linear Regression
 
-After comparing the accuracy of the ML models, the better performing model was now the new focus. 
 
 ## Machine Learning Model
 
@@ -127,13 +117,15 @@ Since we are trying to predict housing prices in the Austin area, the 'latestpri
 We chose the random forest regressor model (RFR) and the multiple linear regression model for our top two machine learning models for this project.
 
 Below are some advantages of using a RFR:
-- it can used with data that differs in non-linear relationships
-- it can run well on datasets that are large
+- can give better predictive power than Decision Trees
+- reduces overfitting, helps to improve accuracy
+- efficient to work with numerical and categorical features
 
 Disadvantages:
-- it won't explain the data very well
-- overfitting could possibly happen
-- it also needs some direction and tweeking 
+- Decision Tree will give more interpretability than Random Forests
+- requires more computational power as well as resources as it builds numerous trees to combine outputs
+- requires time for training 
+- difficult to interpret and explain
 
 The multiple linear regression model was used as a baseline to test against the RFR. We expect it to not perform as well as the RFR because linear models expect there to be a standard linear pattern between the independent variables and dependent variables. The RFR model can handle more non-linear relationships and still produce a good estimation. In short, RFR models are more robust when testing an unkonwn dataset for prediction problems unless you are very sure that a linear relationship exists, in which case a linear regression model would be fine to use.
 
@@ -147,17 +139,25 @@ Planned model improvements:
 
 Interactive dashboard link to tableau public:
 
-https://public.tableau.com/views/dashboard1_16584263247130/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/app/profile/zeena.ali/viz/pres2_16590490496370/AustinHousingFrom2018-2021?publish=yes 
 
-
-### Description of interactive tools:
+Description of interactive tools:
 - Heat map of zip codes and housing prices
-- Bar graph of month and price sold
-- Bubble chart of price/lot size/ year built
-- Line graph of price and average school rating
+- Circle graph providing home type data
+- Line graph of latest prices of sold homes
 
-![Screen Shot 2022-07-24 at 1 31 25 PM](https://user-images.githubusercontent.com/98489681/180670273-76f0387e-a5e4-43d1-b9d2-c90e8d2b9a7e.png)
+![Screen Shot 2022-07-30 at 3 06 02 PM](https://user-images.githubusercontent.com/98489681/181994683-b3d44ef1-aee4-44ea-9dc9-216830765aad.png)
+![Screen Shot 2022-07-30 at 3 06 31 PM](https://user-images.githubusercontent.com/98489681/181994691-000d4366-f8f8-489d-b4ed-15e84e728071.png)
+![Screen Shot 2022-07-30 at 3 06 24 PM](https://user-images.githubusercontent.com/98489681/181994686-842661f9-657a-48ea-ab99-3c8c0ce0a07f.png)
 
-### Description of tools used to create final dashboard in a project map:
-![Screen Shot 2022-07-24 at 4 36 21 PM](https://user-images.githubusercontent.com/98489681/180675933-d6ce1446-e44a-4944-93a0-c7a2696f8f52.png)
+# Deliverable 3 
+
+### Technologies, languages, tools, and algorithms used throughout the project:
+
+![Screen Shot 2022-07-30 at 3 16 41 PM](https://user-images.githubusercontent.com/98489681/181994882-9b492b8e-13ac-4e04-80fd-fe17c2706e28.png)
+
+
+
+
+
 
