@@ -173,11 +173,10 @@ These were determined to have the most weight based on running a feature_importa
 
 The RandomSearch Model randomly picks different combinations of parameter values based on the parameter ranges you give it, and then based on the peformance of these multiple random parameter combinations, it shows which combination performed the best. After conducting the RandomSearch exercise, we ran a GridSearch based on the results of the RandomSearch. Since RandomSearch shares the best parameter combination based on _random_ sampling of parameters, you can then feed the GridSearch more specific ranges of parameters to test out. The GridSearch attribute tests _all_ combinations of parameters within the ranges you give it for each parameter, so it's good to know around which values you want to test first (which you get from the RandomSearch). 
 
-3. 
+3. Accuracy Score Explanation
 
-[!accuracy_score]("https://user-images.githubusercontent.com/14280739/182073763-465c2ff5-946d-43e4-aae2-2bacd77915da.png")
+The Root Mean Squared Error (RMSE) is 82,628 for the RFR model using the improved parameters. One way to think about how accurate this is for predicting home prices in our dataset is to take the simple average of the home prices in our y_train dataset, which is $152,573, and then calculate the Root Mean Squared Error between this value and all of our y values in our testing data. Basically, if you average the value of your target variable in the training data, what is the approximate error in predicting the target variable for the data points in the testing dataset? The ML Model should clearly perform better than this to be valuable, and the better it can do against this value, the more useful the model is. 
 
-
-
+So comparing the RMSE of our model, $82,628 USD, against the RMSE of the simple average of the dataset, $152,573 USD, our model is about 2x as effective at predicting the home value over just using the simple average. We'd like to see the model's RMSE go down even more, but at least it is somewhat effective now. 
 
 
