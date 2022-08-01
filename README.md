@@ -117,13 +117,15 @@ Since we are trying to predict housing prices in the Austin area, the 'latestpri
 We chose the random forest regressor model (RFR) and the multiple linear regression model for our top two machine learning models for this project.
 
 Below are some advantages of using a RFR:
-- it can used with data that differs in non-linear relationships
-- it can run well on datasets that are large
+- can give better predictive power than Decision Trees
+- reduces overfitting, helps to improve accuracy
+- efficient to work with numerical and categorical features
 
 Disadvantages:
-- it won't explain the data very well
-- overfitting could possibly happen
-- it also needs some direction and tweeking 
+- Decision Tree will give more interpretability than Random Forests
+- requires more computational power as well as resources as it builds numerous trees to combine outputs
+- requires time for training 
+- difficult to interpret and explain
 
 The multiple linear regression model was used as a baseline to test against the RFR. We expect it to not perform as well as the RFR because linear models expect there to be a standard linear pattern between the independent variables and dependent variables. The RFR model can handle more non-linear relationships and still produce a good estimation. In short, RFR models are more robust when testing an unkonwn dataset for prediction problems unless you are very sure that a linear relationship exists, in which case a linear regression model would be fine to use.
 
