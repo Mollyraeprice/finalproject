@@ -2,8 +2,6 @@
 
 Google Slides: (https://docs.google.com/presentation/d/1kHhykAyHsYu4u6Xx_kAtRFoHddAjTAV-o60WKMYjSNo/edit#slide=id.p)
 
-# Deliverable 1 
-
 ## Overview
 
 ### Selected topic:
@@ -33,8 +31,6 @@ After searching for data on  current housing prices in the Austin area, we found
 ## Question Answered
 
 We hope to answer our question: can we predit housing prices in Austin, Texas based on a number of features?
-
-# Deliverable 2
 
 ## Data Exploration Phase
 
@@ -148,8 +144,6 @@ Description of interactive tools:
 ![Screen Shot 2022-07-30 at 3 06 02 PM](https://user-images.githubusercontent.com/98489681/181994683-b3d44ef1-aee4-44ea-9dc9-216830765aad.png)
 ![Screen Shot 2022-07-30 at 3 06 31 PM](https://user-images.githubusercontent.com/98489681/181994691-000d4366-f8f8-489d-b4ed-15e84e728071.png)
 ![Screen Shot 2022-07-30 at 3 06 24 PM](https://user-images.githubusercontent.com/98489681/181994686-842661f9-657a-48ea-ab99-3c8c0ce0a07f.png)
-
-# Deliverable 3 
 
 ### Technologies, languages, tools, and algorithms used throughout the project:
 
